@@ -14,6 +14,8 @@
 		15CA546E2A69BBEE00E74994 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA546D2A69BBEE00E74994 /* HomeView.swift */; };
 		15CA54702A69BFDB00E74994 /* TopCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA546F2A69BFDB00E74994 /* TopCoinsView.swift */; };
 		15CA54722A69C00000E74994 /* TopCoinsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA54712A69C00000E74994 /* TopCoinsItemView.swift */; };
+		15CA54742A69C8C000E74994 /* AllCoinsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA54732A69C8C000E74994 /* AllCoinsView.swift */; };
+		15CA54782A69C92600E74994 /* CoinCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA54772A69C92600E74994 /* CoinCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		15CA546D2A69BBEE00E74994 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		15CA546F2A69BFDB00E74994 /* TopCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinsView.swift; sourceTree = "<group>"; };
 		15CA54712A69C00000E74994 /* TopCoinsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCoinsItemView.swift; sourceTree = "<group>"; };
+		15CA54732A69C8C000E74994 /* AllCoinsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllCoinsView.swift; sourceTree = "<group>"; };
+		15CA54772A69C92600E74994 /* CoinCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +140,8 @@
 				15CA546D2A69BBEE00E74994 /* HomeView.swift */,
 				15CA546F2A69BFDB00E74994 /* TopCoinsView.swift */,
 				15CA54712A69C00000E74994 /* TopCoinsItemView.swift */,
+				15CA54732A69C8C000E74994 /* AllCoinsView.swift */,
+				15CA54772A69C92600E74994 /* CoinCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -211,8 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				15CA546E2A69BBEE00E74994 /* HomeView.swift in Sources */,
+				15CA54742A69C8C000E74994 /* AllCoinsView.swift in Sources */,
 				15CA54722A69C00000E74994 /* TopCoinsItemView.swift in Sources */,
 				15CA54582A69B6ED00E74994 /* ContentView.swift in Sources */,
+				15CA54782A69C92600E74994 /* CoinCellView.swift in Sources */,
 				15CA54562A69B6ED00E74994 /* CryptoCoin_AppApp.swift in Sources */,
 				15CA54702A69BFDB00E74994 /* TopCoinsView.swift in Sources */,
 			);

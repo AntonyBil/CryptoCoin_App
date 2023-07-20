@@ -36,7 +36,7 @@ struct TopCoinsItemView: View {
         .frame(width: 140, height: 140)
         .overlay(
         RoundedRectangle(cornerRadius: 10)
-            .stroke(Color(.systemGray4), lineWidth: 2)
+            .stroke(Color(.systemGray4), lineWidth: 1)
             .shadow(radius: 1)
         )
     }
