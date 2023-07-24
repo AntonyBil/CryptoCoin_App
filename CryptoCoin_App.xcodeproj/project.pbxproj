@@ -10,6 +10,7 @@
 		150328222A6EECEA00FF34CE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150328212A6EECEA00FF34CE /* HomeViewModel.swift */; };
 		150328242A6EF29D00FF34CE /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150328232A6EF29D00FF34CE /* Coin.swift */; };
 		150328272A6F126300FF34CE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 150328262A6F126300FF34CE /* Kingfisher */; };
+		150328292A6F154200FF34CE /* Double + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150328282A6F154200FF34CE /* Double + Extension.swift */; };
 		15CA54562A69B6ED00E74994 /* CryptoCoin_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA54552A69B6ED00E74994 /* CryptoCoin_AppApp.swift */; };
 		15CA54582A69B6ED00E74994 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA54572A69B6ED00E74994 /* ContentView.swift */; };
 		15CA545A2A69B6F100E74994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CA54592A69B6F100E74994 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		150328212A6EECEA00FF34CE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		150328232A6EF29D00FF34CE /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		150328282A6F154200FF34CE /* Double + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Extension.swift"; sourceTree = "<group>"; };
 		15CA54522A69B6ED00E74994 /* CryptoCoin_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCoin_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CA54552A69B6ED00E74994 /* CryptoCoin_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoin_AppApp.swift; sourceTree = "<group>"; };
 		15CA54572A69B6ED00E74994 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		15CA54682A69BA9000E74994 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				150328282A6F154200FF34CE /* Double + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150328292A6F154200FF34CE /* Double + Extension.swift in Sources */,
 				150328242A6EF29D00FF34CE /* Coin.swift in Sources */,
 				15CA546E2A69BBEE00E74994 /* HomeView.swift in Sources */,
 				15CA54742A69C8C000E74994 /* AllCoinsView.swift in Sources */,
