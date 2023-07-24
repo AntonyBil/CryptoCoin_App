@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150328222A6EECEA00FF34CE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150328212A6EECEA00FF34CE /* HomeViewModel.swift */; };
 		15CA54562A69B6ED00E74994 /* CryptoCoin_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA54552A69B6ED00E74994 /* CryptoCoin_AppApp.swift */; };
 		15CA54582A69B6ED00E74994 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA54572A69B6ED00E74994 /* ContentView.swift */; };
 		15CA545A2A69B6F100E74994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CA54592A69B6F100E74994 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		150328212A6EECEA00FF34CE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		15CA54522A69B6ED00E74994 /* CryptoCoin_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCoin_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CA54552A69B6ED00E74994 /* CryptoCoin_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCoin_AppApp.swift; sourceTree = "<group>"; };
 		15CA54572A69B6ED00E74994 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		15CA546B2A69BB9C00E74994 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				150328212A6EECEA00FF34CE /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				15CA546E2A69BBEE00E74994 /* HomeView.swift in Sources */,
 				15CA54742A69C8C000E74994 /* AllCoinsView.swift in Sources */,
 				15CA54722A69C00000E74994 /* TopCoinsItemView.swift in Sources */,
+				150328222A6EECEA00FF34CE /* HomeViewModel.swift in Sources */,
 				15CA54582A69B6ED00E74994 /* ContentView.swift in Sources */,
 				15CA54782A69C92600E74994 /* CoinCellView.swift in Sources */,
 				15CA54562A69B6ED00E74994 /* CryptoCoin_AppApp.swift in Sources */,
