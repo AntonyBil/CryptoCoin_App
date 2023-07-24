@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		150328222A6EECEA00FF34CE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150328212A6EECEA00FF34CE /* HomeViewModel.swift */; };
 		150328242A6EF29D00FF34CE /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150328232A6EF29D00FF34CE /* Coin.swift */; };
+		150328272A6F126300FF34CE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 150328262A6F126300FF34CE /* Kingfisher */; };
 		15CA54562A69B6ED00E74994 /* CryptoCoin_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA54552A69B6ED00E74994 /* CryptoCoin_AppApp.swift */; };
 		15CA54582A69B6ED00E74994 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA54572A69B6ED00E74994 /* ContentView.swift */; };
 		15CA545A2A69B6F100E74994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15CA54592A69B6F100E74994 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150328272A6F126300FF34CE /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +170,9 @@
 			dependencies = (
 			);
 			name = CryptoCoin_App;
+			packageProductDependencies = (
+				150328262A6F126300FF34CE /* Kingfisher */,
+			);
 			productName = CryptoCoin_App;
 			productReference = 15CA54522A69B6ED00E74994 /* CryptoCoin_App.app */;
 			productType = "com.apple.product-type.application";
@@ -196,6 +201,9 @@
 				Base,
 			);
 			mainGroup = 15CA54492A69B6EC00E74994;
+			packageReferences = (
+				150328252A6F126300FF34CE /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 15CA54532A69B6ED00E74994 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -429,6 +437,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		150328252A6F126300FF34CE /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		150328262A6F126300FF34CE /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 150328252A6F126300FF34CE /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 15CA544A2A69B6EC00E74994 /* Project object */;
 }
